@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Condensed&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+footer p, h1, h2, h3, h4, h5, h6, a{
+    font-family: 'Opens Sans', sans-serif;
+}
+
+
+:root{
+    --roxo: #7000A8;
+    --azulescuro: #531CB3;
+    --azulclaro: #00B6FF;
+    --rosa: #F61067;
+    --verde: #29BF12;
+    --cinza: #707070;
+
+
+    --hr: rgba(119, 119, 119, 0.3);
+    --bordas: 1em;
+    --cor_bordas: #707070;
+}

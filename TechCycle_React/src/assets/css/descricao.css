@@ -1,0 +1,271 @@
+.interesse_main{
+    height: 110vh;
+}
+.produto_avaliação{
+    display: flex;
+}
+.titulo_descricao h1, .titulo_interesses h1{
+  color: var(--roxo);
+  font-weight: 500;
+  margin-left: 4em;
+  margin-top: 2.8em;
+  font-size: 1.8em;
+}
+
+.colorido{
+    color: var(--roxo);
+    font-weight: bold;
+}.colorido-borda{
+    border: 1.5px solid var(--roxo) !important;
+}
+.titulo_descricao hr, .titulo_interesses hr{
+  background: #707070;
+  width: 85vw;
+  height: 0.1vh;
+  margin: 0 auto;
+  margin-top: 1em;
+}
+
+
+.foto_principal hr{
+    width: 29vw;
+}
+.links_listas, .links_listas_aguardo{
+  display: flex;
+}
+.links_listas h2, .links_listas_aguardo h2{
+  font-size: 1.3em;
+  color: var(--roxo);
+  text-decoration-line: underline;
+  padding: 1.3em;
+}
+
+.links_listas a, .links_listas_aguardo a{
+  font-size: 1.3em;
+  padding: 1em 0.5em 0em 0.5em;
+  color: var(--roxo);
+  text-decoration: none;
+  font-weight: bolder;
+  padding: 1.3em;
+}
+.box_lista-interesse, .box_lista{
+  width: 70vw;
+  height: 70vh;
+  margin-left: 13.5em;;
+}
+.linha_produto{
+  list-style: none;
+  padding: 1em;
+  display: flex;
+  border: 2px solid #ccc;
+  border-radius: 1em;
+  margin-top: 1em;
+  font-family:  'Opens Sans', sans-serif;
+}
+.linha_produto img{
+  height: 10vh;
+  width: 10vw;
+}
+/* .linha_produto h3, p{
+ padding: 1em;
+} */
+
+
+/* Etilizado A PAGINA detalhe do produto */
+.anuncio_descritivo {
+    display: flex;
+    margin-left: 4em;
+}
+.foto_principal {
+    margin-left: 3em;
+}
+
+.foto_principal {
+    margin-left: 3em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fotos_secundarias {
+    padding: 1em;
+}
+.fotos_secundarias, .foto_principal {
+    border: solid 1px #000;
+    border-radius: 1em;
+}
+.foto_principal img {
+    width: 22vw;
+    padding: 1em;
+}
+.fotos_secundarias img {
+    width: 10vw;
+}
+.box_classificacao h3 {
+    font-size: 1.3em;
+    text-transform: capitalize;
+    word-spacing: 1em;
+    margin-bottom: 1em;
+}
+.box_classificacao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.conteudo_descricao h3 {
+    font-size: 2em;
+}
+.conteudo_descricao p {
+    font-family: 'Opens Sans', sans-serif;
+    font-size: 1.15em;
+    padding: 0.5em 0.3em;
+    width: 27vw;
+    line-height: 2em;
+}
+.conteudo_descricao h4 {
+    text-align: right;
+    font-size: 1.5em;
+    color: var(--roxo);
+}
+.foto_exibicao {
+    text-align: center;
+}
+.descricao {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 3em;
+}
+.avaliacoes .box_avaliacao {
+    border: 1px solid var(--cor_bordas);
+    border-radius: var(--bordas);
+    display: flex;
+    justify-content: space-between;
+    text-transform: capitalize;
+    font-weight: bold;
+    padding: 1em;
+    width: 16vw;
+}
+.leve_descricao {
+    width: 18vw;
+    margin-left: 2em;
+    font-family: 'Opens Sans', sans-serif;
+    margin-right: 4em;
+}
+.secao_avaliacao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.btn_descricao button {
+    border: 2px solid var(--roxo);
+    padding: 1.5em;
+    background-color: transparent;
+    border-radius: var(--bordas);
+    cursor: pointer;
+    color: var(--roxo);
+    font-size: 15px;
+    font-weight: bold;
+}
+.quadro_avaliacao {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 9.5vh;
+}
+.central {
+    margin: 1em 0em;
+}
+.box_avaliacao span{
+    color:#FFC84C;
+}
+
+.titulo_comentarios h2 {
+    margin: 2em 0em;
+    margin-left: 1em;
+}
+
+.box_comentarios {
+    border: solid 1px #000;
+    border-radius: 1em;
+    width: 45vw;
+    padding: 0.5em;
+    margin: 1.2em 0em;
+}
+.comentar {
+    border: solid 1px #000;
+    border-radius: 1em;
+    width: 45vw;
+    height: 15vh;
+    padding: 0.5em;
+}
+.usuario1 {
+    /* background: url(../imagens/chris.jpg) center; */
+    background: require('../assets/img/macp1.png');
+    background-size: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 3vw;
+    height: 3vw;
+    border-radius: 1.2vw;
+}
+.usuario2 {
+    /* background: url(../imagens/robert.jpg) center; */
+    background-size: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 3vw;
+    height: 3vw;
+    border-radius: 1.2vw;
+}
+.comentar form textarea {
+    border: none;
+    font-size: 1em;
+    font-style: italic;
+    text-transform: capitalize;
+    width: 42vw;
+    height: 11vh;
+}
+.adicionar_comentario {
+    border: 2px solid var(--roxo);
+    border-radius: var(--bordas);
+    background-color: transparent;
+    padding: 0.8em;
+    color: var(--roxo);
+    margin: 0.5em 0em;
+}
+.comentarios {
+    padding: 0em 8em;
+}
+.titulo_comentarios {
+    margin-top: 5vh;
+    font-size: 1em;
+    padding: 3% 7% 0% 8%;
+}
+.dados_usuario {
+    display: flex;
+    align-items: center;
+}
+.dados_usuario p {
+    margin: 1.5em 0.5em;
+    font-family: 'Opens Sans', sans-serif;
+}
+.box_comentarios p{
+    font-family: 'Opens Sans', sans-serif;
+}
+.conteudo_descricao {
+    padding: 0.4em;
+}
+.foto_usuario img{
+    width: 3vw;
+    height: 3vw;
+    border-radius: 1.2vw;
+}
+
+@media screen and (max-width: 769px){
+
+}
+@media screen and (max-width: 376px){
+
+}

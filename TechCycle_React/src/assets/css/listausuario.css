@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.ltdimg img{
+    width: 7vw;    
+}
+
+.tabela-de-usuarios{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 4em;
+    margin-top: 3em;
+}
+
+#tabela-lista thead{
+    background: rgb(243, 243, 243);
+}
+#tabela-lista thead tr th{
+    padding: 0.5em 3em;
+}
+
+#tabela-lista-corpo tr td{
+    height: 5vh;
+    text-align: center;
+}#tabela-lista-corpo tr td img{
+    width: 5vw;
+}

@@ -1,0 +1,86 @@
+
+.sobre_nos {
+    color: var(--roxo);
+    font-weight: 500;
+    margin-left: 4em;
+    margin-top: 2.8em;
+}
+
+.titulo_sobrenos hr {
+    background: #707070;
+    width: 85vw;
+    height: 0.1vh;
+    margin: 0 auto;
+    margin-top: 1em;
+    z-index: -1;
+}
+
+.techcycle_sobrenos {
+    color: grey;
+    font-size: 1.5em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 0.7em;
+    display: flex;
+    text-align: left;
+}
+
+.box1_sobrenos p {
+    width: 20em;
+    margin-right: 3em;
+}
+
+.box1_sobrenos {
+    width: 85vw;
+    font-size: 1.7em;
+    color: grey;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 4em;
+    margin-top: 1em;
+    display: flex;
+    text-align: justify;
+}
+
+.foto_pc_sobrenos {
+    width: 40vw;
+}
+
+.linha_sobrenos hr {
+    position: unset;
+    transform: rotate(170deg);
+    background: #707070;
+    width: 85vw;
+    height: 0.1vh;
+    margin: 0 auto;
+    margin-top: 10em;
+}
+
+.box2_sobrenos {
+    width: 85vw;
+    font-size: 1.7em;
+    color: grey;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 4em;
+    margin-top: 2em;
+    display: flex;
+}
+
+.funcoders_sobrenos {
+    margin-left: 12em;
+    margin-top: 2.2em;
+    margin-bottom: 0.3em;
+    font-size: 1.5em;
+    color: grey;
+}
+
+.box2_sobrenos p {
+    margin-left: 4em;
+    text-align: justify;
+    width: 22em;
+}
+
+.foto_grupo_sobrenos {
+    width: 35vw;
+    height: 45vh;
+    margin-top: 6em;
+    border-radius: 30px;
+}

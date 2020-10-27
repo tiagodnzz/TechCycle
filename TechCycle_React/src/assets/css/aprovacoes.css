@@ -1,0 +1,141 @@
+
+
+.main_aprovacoes{
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    color: var(--roxo);
+    font-weight: 500;
+    margin-top: 2.8em;
+    width: 32vw;
+    margin-left: 4.5em;
+}
+
+hr {
+    background: #707070;
+    width: 85vw;
+    height: 0.1vh;
+    margin: 0 auto;
+    margin-top: 1em;
+}
+
+
+/* menu  */
+.nav_tabs {
+    background-color: #fff;
+    position: relative;
+    margin-left: 0em;
+    margin-top: 2em;
+}
+
+.nav_tabs ul{
+    list-style: none;
+}
+
+.nav_tabs ul li{
+    float: left;
+}
+
+.tab_label{
+    display: block;
+    width: 27em;
+    padding: 25px;
+    font-size: 20px;
+    color: var(--roxo);
+    cursor: pointer;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.nav_tabs .rd_tab { 
+display:none;
+position: absolute;
+}
+
+.nav_tabs .rd_tab:checked ~ label { 
+text-decoration: underline;
+}
+
+.tab-content{
+background-color: #fff;
+display: none;
+position: absolute;
+left: 0;	
+}
+
+.rd_tab:checked ~ .tab-content{
+display: block;
+}
+
+.tab-content article{
+padding: 10px;
+}
+
+
+/* tela */
+.lista_aprovados{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.linha {
+    margin-left: 3em;
+    margin-top: 2em;
+    list-style: none;
+    padding: 1em;
+    align-items: center;
+    border: 2px solid #ccc;
+    border-radius: 1em;
+    width: 60em;
+    height: 6em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.li_botao{
+    width: 20em;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.li_titulo{
+    width: 20vw;
+
+}
+
+.li_descricao{
+    width: 20vw;
+
+}
+
+
+
+.botao_recusar {
+    border: solid 0.1em #CF0000;
+    color: #CF0000;
+    border-radius: 0.8em;
+    background-color: white;
+    font-weight: bold;
+    width: 8vw;
+    height: 5vh;
+}
+
+.botao_aprovar {
+    border: solid 0.1em #29BF12;
+    color: #29BF12;
+    border-radius: 0.8em;
+    background-color: white;
+    font-weight: bold;
+    width: 8vw;
+    height: 5vh;
+    margin-right: 1em;
+}

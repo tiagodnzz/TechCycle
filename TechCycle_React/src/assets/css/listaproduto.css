@@ -1,0 +1,196 @@
+.produtoCadastrado_main {
+    height: 165vh;
+}
+.titulo_div{
+    width: 75vw;
+}
+
+.produtoCadastrado_main h1 {
+    color: var(--roxo);
+    font-weight: 500;
+    margin-left: 1em;
+    margin-top: 2.8em;
+}
+
+.produtoCadastrado_main hr {
+    background: #707070;
+    width: 85vw;
+    height: 0.1vh;
+    margin: 0 auto;
+    margin-top: 1em;
+}
+.home_card{
+    width: 18vw;
+    height: 55vh;
+    border: solid 1px #000;
+    border-radius: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-bottom: 4em !important;
+}
+.home_linha {
+    display: flex;
+    justify-content: space-around;
+    
+}
+.home_texto p{
+    display: flex;
+    justify-content: space-around;
+}
+.home_img {
+    width: 18vw;
+    height: 25vh;
+    border-bottom: 1px solid #000;
+    display: flex;
+    justify-content: center;
+}
+.home_img img{
+    width: 17vw;
+    height: 23vh;
+}
+.home_div_btn{
+    display: flex;
+    justify-content: space-around;
+}
+.home_btn {
+    text-transform: uppercase;
+    border: 1px solid var(--roxo);
+    background: var(--roxo);
+    border-radius: 0.8em;
+    height: 6vh;
+    width: 7vw;
+    color: white;
+}
+
+.produtoCadastrado_main{
+    width: 75vw;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+.home_secao-filtro {
+    width: 65vw;
+    margin: 0 auto;
+    margin-bottom: 4em;
+}
+
+.home_secao-filtro h4 {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    display: flex;
+    flex-direction: column;
+}
+
+.home_filtros {
+    display: flex;
+    justify-content: space-between;
+}
+
+.home_filtros input,
+.home_filtros label {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.home_filtros input {
+    margin-left: 1em;
+}
+
+/* FINALIZANDO A PAGINA Produtos Cadastrados */
+
+/* ESTILIZANDO A PAGINA Cadastro de usuario TABLET */
+@media screen and (max-width: 769px) {
+    .cadUsuario_main h1 {
+        margin-left: 2em;
+    }
+    .usuario_container_cad {
+        flex-wrap: wrap;
+    }
+    .usuario_secao_imagem_cad {
+        margin-bottom: 2em;
+        margin-bottom: 2em;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        width: 100vw;
+    }
+    .botao_cad_usuario input {
+        width: 15em;
+        height: 4em;
+        border-radius: 1em;
+        border: solid var(--roxo);
+        background-color: transparent;
+        color: var(--roxo);
+        font-size: 1em;
+    }
+    .usuario_row div {
+        display: flex;
+        flex-direction: column;
+        padding: 1em 0.5em;
+    }
+    .usuario_secao_imagem_cad p {
+        width: 29vw;
+        font-size: 1em;
+        color: red;
+    }
+    .usuario_secao_imagem_cad img {
+        width: 30vw;
+        height: 30vw;
+        padding-right: 1.5em;
+    }
+    .usuario_titulo_cad h1 {
+        color: var(--roxo);
+        font-weight: 500;
+        margin-top: 2.8em;
+        width: 82vw;
+    }
+    /* FINALIZANDO A PAGINA Cadastro de usuario */
+}
+
+@media screen and (max-width: 376px) {
+    /* FINALIZANDO A PAGINA Cadastro de usuario CELULAR*/
+    .cadUsuario_main h1 {
+        margin-left: 1.2em;
+    }
+    .usuario_container_cad {
+        flex-wrap: wrap;
+    }
+    .usuario_secao_imagem_cad {
+        width: 30vw;
+        margin-bottom: 2em;
+        width: 30vw;
+        margin-bottom: 2em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .botao_cad_usuario button {
+        border-radius: 1em;
+        border: 1px solid var(--roxo);
+        background-color: transparent;
+        color: var(--roxo);
+        font-size: 1em;
+    }
+    .usuario_row div {
+        display: flex;
+        flex-direction: column;
+        padding: 1em 0;
+    }
+    .usuario_secao_imagem_cad p {
+        width: 68vw;
+        font-size: 1em;
+        color: red;
+    }
+    .usuario_secao_imagem_cad img {
+        width: 60vw;
+        height: 60vw;
+    }
+    .usuario_titulo_cad h1 {
+        font-size: 1.05em;
+        margin-left: 0em;
+    }
+    /* FINALIZANDO A PAGINA Cadastro de usuario */
+}
